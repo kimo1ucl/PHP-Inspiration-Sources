@@ -1,0 +1,9 @@
+{ 
+    "_comment": "check https://symfony.com/releases/ and see which release matches your php version",
+    "require": {
+        "symfony/http-foundation": "^6.0"
+    },
+    "autoload": {
+        "files": ["model.php","controllers.php"]
+    }
+}
